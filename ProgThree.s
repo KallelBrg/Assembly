@@ -53,7 +53,7 @@ _start:
     mov edx, 30
     int 80h
     
-    cmp [mentr+1], byte "u"
+    cmp [mentr+0], byte "u"
     je sezim
     
     ;Exibir mensagem 
